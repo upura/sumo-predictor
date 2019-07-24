@@ -44,7 +44,7 @@ def fetch_data(yyyy, mm, d):
     else:
         res = pd.DataFrame({
             'wrestler': east_wrestler + west_wrestler,
-            f'day_{d}': east_result + west_result,
+            f'day_{str(d).rjust(2, "0")}': east_result + west_result,
             'final_opponent': west_wrestler + east_wrestler
         })
 
