@@ -1,0 +1,4 @@
+beautifulsoup4
+requests
+pandas==0.24.0
+jupyter
