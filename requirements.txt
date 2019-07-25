@@ -1,4 +1,8 @@
 beautifulsoup4
 requests
 pandas==0.24.0
+matplotlib
+japanize-matplotlib
 jupyter
+lightgbm
+seaborn
