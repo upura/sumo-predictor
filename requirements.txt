@@ -6,3 +6,4 @@ japanize-matplotlib
 jupyter
 lightgbm
 seaborn
+tsfresh
